@@ -10,17 +10,17 @@ Importação da base de dados
 """
 
 import pandas as pd
-url = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction/main/diabetes.csv'
+url = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction-KNN/main/diabetes.csv'
 base_Treinamento = pd.read_csv(url)
 
 """Importação da base de teste"""
 
-url_teste = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction/main/teste.csv'
+url_teste = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction-KNN/main/teste.csv'
 base_teste = pd.read_csv(url_teste)
 
 """Importação da base de treinos"""
 
-url_treino = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction/main/treino.csv'
+url_treino = 'https://raw.githubusercontent.com/Ericles-Porty/Diabetes-Prediction-KNN/main/treino.csv'
 base_treino = pd.read_csv(url_treino)
 
 """Salvar os dados de treino e teste em arquivos diferentes"""
